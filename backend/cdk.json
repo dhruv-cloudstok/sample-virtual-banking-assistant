@@ -84,15 +84,15 @@
         "@aws-cdk/aws-lambda:createNewPoliciesWithAddToRolePolicy": true,
         "@aws-cdk/aws-s3:setUniqueReplicationRoleName": true,
         "vpc-config": {
-            "vpcId": "vpc-0e804178a60aff5a2",
-            "cidr": "172.31.0.0/16",
+            "vpcId": "vpc-0957662038963bcb3",
+            "cidr": "10.0.0.0/16",
             "publicSubnetIds": [
-                "subnet-058ff8f94e1e29f4c",
-                "subnet-04486cb8eb2eaa2f0"
+                "subnet-00ee21d16f750cffb",
+                "subnet-0517b076084d62c80"
             ],
             "privateSubnetIds": [
-                "subnet-0503a61c0215e6aea",
-                "subnet-0bd83d02c1ded97b6"
+                "subnet-03374a2db0d750e54",
+                "subnet-070f9d9f52d1682c5"
             ],
             "availabilityZones": [
                 "ap-south-1a",

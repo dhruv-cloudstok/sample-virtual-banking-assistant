@@ -54,15 +54,15 @@ CdkStack(app, "VirtualBankingAssistantCdkStack",
     # but a single synthesized template can be deployed anywhere.
 
     # For environment-specific deployment, use the current CLI configuration
-    env=cdk.Environment(
-        account=os.getenv('CDK_DEFAULT_ACCOUNT'), 
-        region=os.getenv('CDK_DEFAULT_REGION')
-    ),
+    # env=cdk.Environment(
+    #     account=os.getenv('CDK_DEFAULT_ACCOUNT'), 
+    #     region=os.getenv('CDK_DEFAULT_REGION')
+    # ),
+    env=cdk.Environment(account='281938571445', region='ap-south-1'),
 
     description='Virtual Banking Assistant (uksb-ybsvnefrsb)'
 
     # For explicit account/region deployment, uncomment and modify:
-    # env=cdk.Environment(account='123456789012', region='us-east-1'),
 
     # For more information on environments, see:
     # https://docs.aws.amazon.com/cdk/latest/guide/environments.html
