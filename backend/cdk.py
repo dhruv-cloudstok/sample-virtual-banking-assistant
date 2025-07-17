@@ -46,9 +46,9 @@ app = cdk.App()
 # Add the cdk-nag AwsSolutions Pack with extra verbose logging enabled
 cdk.Aspects.of(app).add(AwsSolutionsChecks(verbose=True))
 
-# Create the Virtual Banking Assistant stack
+# Create the Digital Shopping Concierage stack
 # The stack can be environment-agnostic (deploy anywhere) or environment-specific
-CdkStack(app, "VirtualBankingAssistantCdkStack",
+CdkStack(app, "DigitalShoppingConcierageCdkStack",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.
@@ -60,7 +60,7 @@ CdkStack(app, "VirtualBankingAssistantCdkStack",
     # ),
     env=cdk.Environment(account='281938571445', region='ap-south-1'),
 
-    description='Virtual Banking Assistant (uksb-ybsvnefrsb)'
+    description='Digital Shopping Concierage (uksb-ybsvnefrsb)'
 
     # For explicit account/region deployment, uncomment and modify:
 

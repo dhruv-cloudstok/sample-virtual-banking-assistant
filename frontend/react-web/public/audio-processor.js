@@ -14,7 +14,7 @@
 /**
  * Audio Processor Worklet
  * 
- * This AudioWorklet handles real-time audio processing for the Virtual Banking Assistant.
+ * This AudioWorklet handles real-time audio processing for the Digital Shopping Concierage.
  * It manages a buffer of audio data and streams it to the audio output in a controlled manner.
  * 
  * Features:

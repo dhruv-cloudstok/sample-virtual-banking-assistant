@@ -14,7 +14,7 @@
 /**
  * Application Entry Point
  * 
- * This is the main entry point for the Virtual Banking Assistant frontend application.
+ * This is the main entry point for the Digital Shopping Concierage frontend application.
  * It configures AWS Amplify authentication and renders the root App component.
  */
 

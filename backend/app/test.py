@@ -14,7 +14,7 @@
 """
 Audio Client Test Module
 
-This module provides a test client for the Virtual Banking Assistant WebSocket server.
+This module provides a test client for the Digital Shopping Concierage WebSocket server.
 It handles real-time audio streaming between the client and server, including:
 - Microphone input capture
 - Audio playback of server responses
@@ -37,7 +37,7 @@ import base64
 SAMPLE_RATE = 16000
 
 class AudioClient:
-    """Audio client for testing the Virtual Banking Assistant WebSocket server.
+    """Audio client for testing the Digital Shopping Concierage WebSocket server.
     
     Handles bidirectional audio communication with the server, including
     microphone capture and audio playback.

@@ -14,7 +14,7 @@
 /**
  * Main Content Component
  * 
- * This component handles the core functionality of the Virtual Banking Assistant,
+ * This component handles the core functionality of the Digital Shopping Concierage,
  * including audio streaming, WebSocket communication, and avatar control.
  */
 
@@ -254,7 +254,7 @@ function Content({ signOut, user }) {
                     pointerEvents: headerVisible ? 'auto' : 'none'
                 }}
             >
-                <Navbar.Brand className='px-2'>Virtual Banking Assistant</Navbar.Brand>
+                <Navbar.Brand className='px-2'>Digital Shopping Concierage</Navbar.Brand>
                 {user &&
                     <Nav className='d-flex flex-row p-2 nav-strip flex-grow-1 justify-content-end'>
                         <Nav.Link onClick={() => setHeaderVisible(false)}>

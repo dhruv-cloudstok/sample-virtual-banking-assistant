@@ -32,9 +32,9 @@
 export const awsConfig = {
     Auth: {
         Cognito: {
-            userPoolClientId: '3f7bapxxxxxxxxxxxxx34u4eh',
-            userPoolId: 'ap-south-1_xxxxxxxx',
-            identityPoolId: 'ap-south-1:1111111-aaaa-bbbb-cccc-23hsjfk33412',
+            userPoolClientId: '4mjf1kq8gfadvg6gh20595v81v',
+            userPoolId: 'ap-south-1_zNut7ceC3',
+            identityPoolId: 'ap-south-1:d19ae463-16d7-464e-8c3a-02f20e81985e',
             region: 'ap-south-1'
         }
     }

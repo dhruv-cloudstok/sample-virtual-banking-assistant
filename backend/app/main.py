@@ -12,7 +12,7 @@
 # **********************************************************************************************************************/
 
 """
-FastAPI WebSocket Server for Virtual Banking Assistant
+FastAPI WebSocket Server for Digital Shopping Concierage
 
 This module implements a WebSocket server using FastAPI that handles real-time audio communication
 between clients and an AI banking assistant powered by AWS Nova Sonic. It processes audio streams,
