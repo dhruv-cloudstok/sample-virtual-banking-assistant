@@ -70,7 +70,7 @@ from pipecat.processors.transcript_processor import TranscriptProcessor
 from base64_serializer import Base64AudioSerializer
 
 SAMPLE_RATE = 16000
-API_KEY = "Your-own-long-secret-text-to-access-the-api"
+API_KEY = "B8e9OY3IxKUTcZcswawmPvYmLFq4VU8yD9lxEdTahM7Y64sc9s"
 
 def update_dredentials():
     """
